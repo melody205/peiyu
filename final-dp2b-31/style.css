@@ -1,0 +1,121 @@
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft JhengHei", sans-serif;
+        }
+        body {
+            background-image: url();
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed; 
+            height: 100vh;
+            margin: 0;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ff6b6b;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .nav-links a:hover {
+            color: #ff6b6b;
+        }
+
+        .cover {
+            height: 100vh;
+            background-image: url(images/5446_1024x683_觀旅局14法雅客-TN蘇純賢.劉千瑜2-3_蘇純賢.劉千瑜.jpg);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .cover-content {
+            text-align: center;
+        }
+
+        .cover h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        .cover p {
+            font-size: 1.5em;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .food-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .food-item {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .food-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .food-info {
+            padding: 20px;
+        }
+
+        .food-info h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .food-info p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        
